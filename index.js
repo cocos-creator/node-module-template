@@ -1,10 +1,10 @@
-var Foo = require('foobar');
 var FooBar = {};
 
-function privateFunc ( src, dest ) {
+function privateFunc () {
 }
 
-FooBar.publicFunc = function () {
+FooBar.foobar = function () {
+    return 'foobar';
 };
 
 //
